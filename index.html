@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Kruskal</title>
+  </head>
+  <body>
+    <div id="controls">
+      <p>Q - freeze/unfreeze camera</p>
+      <input type="button" value="Додати (add)" onclick="addNewVertex()" />
+      <input type="button" value="Видалити (remove)" disabled="true" />
+      <input type="button" value="Знайти остовне дерево (Find min span tree)" onclick="runAlgo()"/>
+      <input type="button" value="Reset camera" onclick="resetCamera()"/>
+      <br>
+      <select size="3" style="width: 180px" id="n">
+      </select>
+    </div>
+    <script src="Three.js"></script>
+    <script src="laba.js"></script>
+  </body>
+</html>
