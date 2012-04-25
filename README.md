@@ -1,3 +1,6 @@
+This is just a quick-n-dirty demonstration.
+Be careful while entering coordinates, and don't press "Cancel" :)
+
 webgl-demo-kruskal
 ==================
 
